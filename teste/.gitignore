@@ -1,0 +1,37 @@
+# --- Python Virtual Environment ---
+# Excludes the actual virtual environment folder. 
+# (Adjust if your folder is named 'env' or '.venv')
+venv/
+.venv/
+env/
+
+# --- Python Bytecode & Cache ---
+# Prevents compiled Python files from cluttering your repository
+_pycache_/
+*.py[cod]
+*$py.class
+
+# --- Pytest Artifacts ---
+# Ignores pytest's execution cache and test coverage reports
+.pytest_cache/
+.cache/
+htmlcov/
+.coverage
+.coverage.*
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# --- Selenium & Browser Logs ---
+# Selenium and WebDrivers automatically generate log files during test runs
+geckodriver.log
+chromedriver.log
+ghostdriver.log
+webdriver.log
+# If you download browser binaries locally instead of using WebDriver Manager
+drivers/
+
+# --- Environment Variables / Secrets (Good Practice) ---
+# If you ever use a .env file to store passwords or API tokens for your tests
+.env
