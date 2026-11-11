@@ -3,8 +3,6 @@
 import time
 from datetime import datetime
 from pathlib import Path
-from PIL import Image
-
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
