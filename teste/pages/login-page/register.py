@@ -1,3 +1,5 @@
+# RF-01 Registro de usuário
+
 import time
 from datetime import datetime
 from pathlib import Path
